@@ -105,8 +105,7 @@ CREATE INDEX ON vectors USING hnsw (embedding);
 
 ### 8. Restart Docker if Necessary
 If containers fail to start, restart Docker:
-```sh
-sudo systemctl restart docker  # Linux/macOS
+
 ```
 Or restart Docker Desktop on Windows/macOS.
 
