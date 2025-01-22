@@ -1,0 +1,15 @@
+pandas 
+openai
+psycopg 
+python-dotenv 
+timescale-vector 
+instructor 
+anthropic 
+langfuse 
+torch 
+transformers 
+scikit-learn 
+safetensors==0.4.1
+huggingface-hub==0.24.0
+sentence-transformers 
+pydantic-settings==2.7.1
