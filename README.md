@@ -1,3 +1,17 @@
+##This project sets up a PostgreSQL-based vector database optimized for AI applications using pgvectorscale.
+
+Dataset Folder: Contains the code for creating the Atticus and preprocessed dataset, which will be used for generating vector embeddings.
+TablePlus: A PostgreSQL GUI client used to inspect the generated embeddings stored in the database.
+Docker: Used to set up a PostgreSQL database with TimescaleDB for efficient vector storage and retrieval.
+
+This guide provides a complete setup for PGVectorScale using:
+✅ A preprocessed Atticus dataset
+✅ TablePlus for vector visualization
+✅ Docker for PostgreSQL deployment
+✅ OpenAI embeddings for vector search
+
+This setup ensures an efficient AI-driven vector search database using PostgreSQL and pgvectorscale.
+
 # PGVectorScale Setup Guide
 
 ## Prerequisites
@@ -9,7 +23,9 @@
 ## Steps
 
 ### 1. Create Dataset
-Ensure you have your dataset ready inside a `dataset` folder.
+
+Inside the dataset folder ,codes for creating the dataset are available.
+1.Using the codes and the dataset prepare cleaned dataset .
 
 ### 2. Set Up Docker Environment
 Create a `docker-compose.yml` file with the following content:
