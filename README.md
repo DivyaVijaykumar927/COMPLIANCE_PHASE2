@@ -17,7 +17,7 @@ This setup ensures an efficient AI-driven vector search database using PostgreSQ
 ## Prerequisites
 - Docker
 - Python 3.7+
-- OpenAI API key
+- HuggingFace API key
 - PostgreSQL GUI client (e.g., TablePlus, pgAdmin, or DBeaver)
 
 ## Steps
